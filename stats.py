@@ -8,7 +8,7 @@ while 1:
     print("Pitch: {pitch}\nRoll: {roll}\nYaw: {yaw}".format(**orientation))
     print("---")
     temp = sense.get_temperature()
-    print("Temperature: %s F" % temp*(9/5) + 32)
+    print("Temperature: %s C" % temp)
     print("---")
     humidity = sense.get_humidity()
     print("Humidity: %s %%rH" % humidity)
