@@ -5,6 +5,6 @@ from time import sleep
 sense = SenseHat()
 while 1:
     orientation = sense.get_orientation_degrees()
-    print("p: {pitch}, r: {roll}, y: {yaw}".format(**orientation))
+    print("p: {pitch}\nr: {roll}\ny: {yaw}".format(**orientation))
     sleep(0.1)
     os.system('clear')
