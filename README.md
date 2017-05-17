@@ -7,3 +7,5 @@
   - webcams
 - IRC
 - GPS
+- GUI (to load telemetry data)
+- `sudo.leaf` load programs at startup
